@@ -8,7 +8,7 @@ description: Machine Learning lab.
 
 The task is to investigate an internal chatbot created by the AntiarctiCrafts is up to standard. The chatbot is powered by AI, meaning it is potentially vulnerable to [prompt injection](terminology.md), a vulnerability common in chatbots powered by [NLP](terminology.md) (Natural Language Processing).
 
-### Enumeration
+### Practical
 
 A very basic test we can perform here is to outright ask the chatbot for information. By asking the chatbot for the CEO McGreedy's email address we can see that it gives us that information with no issues.
 

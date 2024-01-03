@@ -20,4 +20,7 @@
 * [🖥 TryHackMe](tryhackme/README.md)
   * [Advent of Cyber 2023](tryhackme/advent-of-cyber-2023/README.md)
     * [Day 1: Chatbot, tell me, if you're really safe?](tryhackme/advent-of-cyber-2023/day-1-chatbot-tell-me-if-youre-really-safe.md)
+    * [Day 2: O Data, All Ye Faithful](tryhackme/advent-of-cyber-2023/day-2-o-data-all-ye-faithful.md)
+    * [Day 3: Hydra is Coming to Town](tryhackme/advent-of-cyber-2023/day-3-hydra-is-coming-to-town.md)
+    * [Day 4: Baby, it's CeWLd Outside](tryhackme/advent-of-cyber-2023/day-4-baby-its-cewld-outside.md)
     * [Terminology](tryhackme/advent-of-cyber-2023/terminology.md)
