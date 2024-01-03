@@ -51,6 +51,6 @@ This will try passwords one after the other based on the following specification
 
 <summary>Expand to see answers!</summary>
 
-Using crunch and hydra, find the PIN code to access the control system and unlock the door. What is the flag? **THM{pin-code-brute-force}**
+1. Using crunch and hydra, find the PIN code to access the control system and unlock the door. What is the flag? **THM{pin-code-brute-force}**
 
 </details>

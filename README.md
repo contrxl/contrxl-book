@@ -12,10 +12,6 @@ Notes, information and guides on general systems administration will also be add
 
 #### Upcoming
 
-Jan 2024:
-
-
-
 <details>
 
 <summary>January 2024</summary>

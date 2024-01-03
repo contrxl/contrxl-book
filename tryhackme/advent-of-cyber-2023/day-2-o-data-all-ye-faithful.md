@@ -18,10 +18,8 @@ Fairly self explanatory, a brief introduction to Python and Jupyter is given, no
 
 <summary>Expand to see answers!</summary>
 
-How many packets were captured (looking at the PacketNumber)? **100**
-
-What IP address sent the most amount of traffic during the packet capture? **10.10.1.4**
-
-What was the most frequent protocol? **ICMP**
+1. How many packets were captured (looking at the PacketNumber)? **100**
+2. What IP address sent the most amount of traffic during the packet capture? **10.10.1.4**
+3. What was the most frequent protocol? **ICMP**
 
 </details>

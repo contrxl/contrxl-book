@@ -23,4 +23,8 @@
     * [Day 2: O Data, All Ye Faithful](tryhackme/advent-of-cyber-2023/day-2-o-data-all-ye-faithful.md)
     * [Day 3: Hydra is Coming to Town](tryhackme/advent-of-cyber-2023/day-3-hydra-is-coming-to-town.md)
     * [Day 4: Baby, it's CeWLd Outside](tryhackme/advent-of-cyber-2023/day-4-baby-its-cewld-outside.md)
+    * [Day 5: A Christmas DOScovery: Tapes of Yule-tide Past](tryhackme/advent-of-cyber-2023/day-5-a-christmas-doscovery-tapes-of-yule-tide-past.md)
+    * [Day 6: Memories of Christmas Past](tryhackme/advent-of-cyber-2023/day-6-memories-of-christmas-past.md)
+    * [Day 7: 'Tis the Season for Log Chopping!](tryhackme/advent-of-cyber-2023/day-7-tis-the-season-for-log-chopping.md)
+    * [Day 8: Have a Holly, Jolly Byte!](tryhackme/advent-of-cyber-2023/day-8-have-a-holly-jolly-byte.md)
     * [Terminology](tryhackme/advent-of-cyber-2023/terminology.md)

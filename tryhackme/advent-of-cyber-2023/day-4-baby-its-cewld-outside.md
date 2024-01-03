@@ -62,8 +62,7 @@ The options defined here are:
 
 <summary>Expand to see answers!</summary>
 
-What is the correct username and password combination? Format username:password. **isaias:Happiness**
-
-What is the flag? **THM{m3rrY4nt4rct1crAft$}**
+1. What is the correct username and password combination? Format username:password. **isaias:Happiness**
+2. What is the flag? **THM{m3rrY4nt4rct1crAft$}**
 
 </details>
