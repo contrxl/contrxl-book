@@ -38,6 +38,9 @@ Notes, information and guides on general systems administration will also be add
 
 <summary>Jan 2024</summary>
 
+* \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/), Added [Metasploit](tools/metasploit.md).
+* \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/).
+* \[05 Jan] Added [Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md), [Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), [Tools](tools/) and [NMAP](tools/nmap.md).
 * \[04 Jan] Added [Day 5](tryhackme/advent-of-cyber-2023/day-5-a-christmas-doscovery-tapes-of-yule-tide-past.md), [Day 6](tryhackme/advent-of-cyber-2023/day-6-memories-of-christmas-past.md), [Day 7](tryhackme/advent-of-cyber-2023/day-7-tis-the-season-for-log-chopping.md) and [Day 8](tryhackme/advent-of-cyber-2023/day-8-have-a-holly-jolly-byte.md) to Advent of Cyber 2023. Added [Vulnerability OSINT](osint/vulnerability-osint.md). Added [Learning Paths](tryhackme/learning-paths/).
 * \[03 Jan] Added [Day 2](tryhackme/advent-of-cyber-2023/day-2-o-data-all-ye-faithful.md), [Day 3](tryhackme/advent-of-cyber-2023/day-3-hydra-is-coming-to-town.md) and [Day 4](tryhackme/advent-of-cyber-2023/day-4-baby-its-cewld-outside.md) to Advent of Cyber 2023. Updated [News & Information](news-and-information.md).
 
