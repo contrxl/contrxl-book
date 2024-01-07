@@ -38,6 +38,7 @@ Notes, information and guides on general systems administration will also be add
 
 <summary>Jan 2024</summary>
 
+* \[07 Jan] Added [Burp Suite](tools/burp-suite.md), Added [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/), Added [Metasploit](tools/metasploit.md).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/).
 * \[05 Jan] Added [Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md), [Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), [Tools](tools/) and [NMAP](tools/nmap.md).
