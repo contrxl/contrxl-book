@@ -42,11 +42,11 @@ This works as the email is valid, which returns true.
 
 To get the admin password we can brute-force using Burp intruder. We use the following request in intruder:
 
-\[SCREENSHOT TO ADD]
+<figure><img src="../../.gitbook/assets/intrude_request.png" alt=""><figcaption><p>Burp request we use to brute force password</p></figcaption></figure>
 
 Which gives us the admin password:
 
-\[SCREENSHOT TO ADD]
+<figure><img src="../../.gitbook/assets/intrude_result.png" alt=""><figcaption><p>Admin password retrieved from Burp</p></figcaption></figure>
 
 We can find the login for Jim (jim@juice-sh.op) through reviews on the /search page. Here there is a Star Trek reference. Trying to reset Jim's password gives us his security question: "Your eldest siblings middle name?" Googling "jim star trek" gives us the name of James T. Kirks brother, which is the answer we need to Jim's security question to reset his password.
 

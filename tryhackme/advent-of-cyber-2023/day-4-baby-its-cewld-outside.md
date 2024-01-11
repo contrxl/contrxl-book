@@ -22,12 +22,12 @@ This creates a wordlist from the target site and outputs it to customlist.txt. T
 cewl -d 2 -m 5 -w passwords.txt http://IP_ADDR --with-numbers
 ```
 
-\[SCREENSHOT TO ADD]
+<figure><img src="../../.gitbook/assets/D4_CEWL.png" alt=""><figcaption><p>Output from the CEWL passwords command</p></figcaption></figure>
 
 To create the username list we use:
 
 ```
-cewl -d 0 -m 5 -w usernames.txt http://IP_ADDR --lowercase
+cewl -d 0 -m 5 -w usernames.txt http://IP_ADDR/team.php --lowercase
 ```
 
 The custom options here specify the following:
@@ -38,7 +38,7 @@ The custom options here specify the following:
 4. \--with-numbers : appends numbers to words
 5. \--lowercase : forces all words lowercase
 
-\[SCREENSHOT TO ADD]
+<figure><img src="../../.gitbook/assets/D4_CEWLU.png" alt=""><figcaption><p>Output of the CEWL username command</p></figcaption></figure>
 
 With these lists we can now use wfuzz to brute-force /login.php. The following command uses our wordlists to brute force the /login.php page:
 
@@ -54,7 +54,7 @@ The options defined here are:
 4. \-u : specify target URL
 5. \-d "username=FUZZ\&password=FUZ2Z" : provides the POST data format where FUZZ is replaced by usernames and FUZ2Z is replaced by passwords.
 
-\[SCREENSHOT TO ADD]
+<figure><img src="../../.gitbook/assets/D4_WFUZZ.png" alt=""><figcaption><p>Output of WFUZZ command</p></figcaption></figure>
 
 ### Answers for Day 4
 

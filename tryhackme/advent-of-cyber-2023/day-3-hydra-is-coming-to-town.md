@@ -18,11 +18,11 @@ crunch 3 3 0123456789ABCDEF -o threechars.txt
 
 The first 3 specifies the minimum length of password, the second 3 specifies the maximum length of password, the 0123456789ABCDEF specifies the character set we will use and -o threechars.txt will save the output to threechars.txt.
 
-\[SCREENSHOT TO BE ADDED]
+<figure><img src="../../.gitbook/assets/D3_Crunch.png" alt=""><figcaption><p>Result from the crunch command</p></figcaption></figure>
 
 On the HTML code for the page we can see that the method is POST, the URL is http://IP\_ADDR:8000/login.php and the PIN code value is sent using pin as the name.
 
-\[SCREENSHOT TO BE ADDED]
+<figure><img src="../../.gitbook/assets/D3_Source.png" alt=""><figcaption><p>Source of the website with PIN pad</p></figcaption></figure>
 
 Hydra can now be used to test all possible password combinations for the PIN pad. The command we will run to do this is:
 
@@ -42,8 +42,6 @@ This will try passwords one after the other based on the following specification
 8. :pin=^PASS^: : this replaces ^PASS^ with values from our list
 9. :Access denied" : the text that is displayed when the PIN is entered incorrectly
 10. \-s 8000 : the port number on the target
-
-\[SCREENSHOT TO BE ADDED]
 
 ### Answers for Day 3
 
