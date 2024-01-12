@@ -40,5 +40,6 @@
       * [3. Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md)
       * [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md)
       * [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md)
+      * [5. Upload Vulnerabilities](tryhackme/learning-paths/complete-beginner/5.-upload-vulnerabilities.md)
   * [Rooms](tryhackme/rooms/README.md)
     * [OWASP Juice Shop](tryhackme/rooms/owasp-juice-shop.md)
