@@ -41,5 +41,7 @@
       * [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md)
       * [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md)
       * [5. Upload Vulnerabilities](tryhackme/learning-paths/complete-beginner/5.-upload-vulnerabilities.md)
+      * [5.1 An Example Methodology](tryhackme/learning-paths/complete-beginner/5.1-an-example-methodology.md)
   * [Rooms](tryhackme/rooms/README.md)
-    * [OWASP Juice Shop](tryhackme/rooms/owasp-juice-shop.md)
+    * [OWASP Juice Shop \[Guided THM Room\]](tryhackme/rooms/owasp-juice-shop-guided-thm-room.md)
+    * [jewel \[THM Upload Vulns\]](tryhackme/rooms/jewel-thm-upload-vulns.md)

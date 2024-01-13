@@ -39,7 +39,8 @@ Notes, information and guides on general systems administration will also be add
 
 <summary>Jan 2024</summary>
 
-* \[10 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/), Added [OWASP Juice Shop](tryhackme/rooms/owasp-juice-shop.md).
+* \[13 Jan] Added [5. Upload Vulnerabilities](tryhackme/learning-paths/complete-beginner/5.-upload-vulnerabilities.md) and [5.1 An Example Methodology](tryhackme/learning-paths/complete-beginner/5.1-an-example-methodology.md).
+* \[10 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/), Added [OWASP Juice Shop](tryhackme/rooms/owasp-juice-shop-guided-thm-room.md).
 * \[08 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md).
 * \[07 Jan] Added [Burp Suite](tools/burp-suite.md), Added [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/), Added [Metasploit](tools/metasploit.md).
