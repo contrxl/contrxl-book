@@ -18,8 +18,7 @@ Notes, information and guides on general systems administration will also be add
 
 * [x] Tools section going over frequently used tools and useful web apps.
 * [ ] Write-ups for Advent of Cyber 2023.
-* [ ] THM learning path notes
-* [ ] Tidy up OWASP Juice Shop
+* [x] THM learning path notes
 
 </details>
 
@@ -39,6 +38,7 @@ Notes, information and guides on general systems administration will also be add
 
 <summary>Jan 2024</summary>
 
+* \[14 Jan] Added [6. Cryptography - Hashing](tryhackme/learning-paths/complete-beginner/6.-cryptography-hashing.md), [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md) and [John the Ripper](tools/john-the-ripper.md), Updated [Tools](tools/).
 * \[13 Jan] Added [5. Upload Vulnerabilities](tryhackme/learning-paths/complete-beginner/5.-upload-vulnerabilities.md) and [5.1 An Example Methodology](tryhackme/learning-paths/complete-beginner/5.1-an-example-methodology.md).
 * \[10 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/), Added [OWASP Juice Shop](tryhackme/rooms/owasp-juice-shop-guided-thm-room.md).
 * \[08 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md).
