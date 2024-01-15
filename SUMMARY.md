@@ -45,5 +45,6 @@
       * [5.1 An Example Methodology](tryhackme/learning-paths/complete-beginner/5.1-an-example-methodology.md)
       * [6. Cryptography - Hashing](tryhackme/learning-paths/complete-beginner/6.-cryptography-hashing.md)
       * [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md)
+      * [8. Active Directory Basics](tryhackme/learning-paths/complete-beginner/8.-active-directory-basics.md)
   * [Rooms](tryhackme/rooms/README.md)
     * [OWASP Juice Shop \[Guided THM Room\]](tryhackme/rooms/owasp-juice-shop-guided-thm-room.md)
