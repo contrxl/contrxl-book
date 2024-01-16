@@ -14,7 +14,9 @@ Basic scan types:
 \-sN : TCP null scan\
 \-sF : TCP FIN scan\
 \-sX : TCP Xmas scan\
-\-sN : Ping sweep, rely solely on ICMP ping, send TCP/SYN to 443 and TCP/ACK to 80
+\-sN : Ping sweep, rely solely on ICMP ping, send TCP/SYN to 443 and TCP/ACK to 80\
+\-sV : Probe open ports for service/version info\
+\-sC : Script scan
 
 ### Useful Common Syntax
 
