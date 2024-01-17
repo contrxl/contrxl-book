@@ -53,3 +53,4 @@
       * [6. Cryptography - Hashing](tryhackme/learning-paths/complete-beginner/6.-cryptography-hashing.md)
       * [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md)
       * [8. Active Directory Basics](tryhackme/learning-paths/complete-beginner/8.-active-directory-basics.md)
+      * [9. What the shell?](tryhackme/learning-paths/complete-beginner/9.-what-the-shell.md)

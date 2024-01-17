@@ -42,6 +42,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 
 <summary>Jan 2024</summary>
 
+* \[17 Jan] Added [9. What the shell?](tryhackme/learning-paths/complete-beginner/9.-what-the-shell.md)
 * \[16 Jan] Added [Cisco](cisco/), Added [Exploitation](tools/metasploit/exploitation.md), Added[ Meterpreter](tools/metasploit/meterpreter.md), Updated [Tools](tools/), Removed Rooms \[Now on [https://medium.com/@contrxl](https://medium.com/@contrxl)!].
 * \[15 Jan] Updated [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md), Added [8. Active Directory Basics](tryhackme/learning-paths/complete-beginner/8.-active-directory-basics.md), Updated [Metasploit](tools/metasploit/).
 * \[14 Jan] Added [6. Cryptography - Hashing](tryhackme/learning-paths/complete-beginner/6.-cryptography-hashing.md), [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md) and [John the Ripper](tools/john-the-ripper.md), Updated [Tools](tools/).
