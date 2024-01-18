@@ -4,9 +4,9 @@ description: Front page posting most recent updates & changes.
 
 # 🏡 Home
 
-#### What's going on?
+#### 1What's going on?
 
-This GitBook will serve as a complete repository of all my notes, research and tools that I use. Walkthroughs and write-ups for CTF exercises and hands-on labs will also be posted here. These will be filed under [TryHackMe](tryhackme/) and [HackTheBox](hackthebox/).
+This GitBook will serve as a complete repository of all my notes, research and tools that I use.&#x20;
 
 Notes, information and guides on general systems administration will also be added here, although maybe less frequently. Deployment guides for applications on [Intune](intune/) will be filed under [App Deployments](intune/app-deployment.md).
 
@@ -42,6 +42,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 
 <summary>Jan 2024</summary>
 
+* \[18 Jan] Updated [Cisco](cisco/), Added [10. Linux Privesc](tryhackme/learning-paths/complete-beginner/10.-linux-privesc.md) and [11. More Linux Privesc](tryhackme/learning-paths/complete-beginner/11.-more-linux-privesc.md), Upated [Home](./), Removed HackTheBox \[Nothing planned for it at this moment].
 * \[17 Jan] Added [9. What the shell?](tryhackme/learning-paths/complete-beginner/9.-what-the-shell.md)
 * \[16 Jan] Added [Cisco](cisco/), Added [Exploitation](tools/metasploit/exploitation.md), Added[ Meterpreter](tools/metasploit/meterpreter.md), Updated [Tools](tools/), Removed Rooms \[Now on [https://medium.com/@contrxl](https://medium.com/@contrxl)!].
 * \[15 Jan] Updated [7. Cryptography - Encryption](tryhackme/learning-paths/complete-beginner/7.-cryptography-encryption.md), Added [8. Active Directory Basics](tryhackme/learning-paths/complete-beginner/8.-active-directory-basics.md), Updated [Metasploit](tools/metasploit/).
@@ -66,7 +67,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 * \[18 Dec 2023] Updated [Intune](intune/). Added [App Updating/Patching](intune/app-updating-patching.md).
 * \[15 Dec 2023] Added [Projects](projects/). Uploaded [A Simulation Study of DDoS](projects/a-simulation-study-of-ddos.md).
 * \[13 Dec 2023] Updated [Home](./). Added [Microsoft Portal Links](microsoft-portal-links.md). Added [App Deployment](intune/app-deployment.md). Added [Intune](intune/). Added [Learning Links](learning-links.md).
-* \[12 Dec 2023] Updated [OSINT](osint/). Added [News & Information](news-and-information.md). Added [TryHackMe](tryhackme/). Added [HackTheBox](hackthebox/).
+* \[12 Dec 2023] Updated [OSINT](osint/). Added [News & Information](news-and-information.md). Added [TryHackMe](tryhackme/). Added [HackTheBox](broken-reference).
 * \[11 Dec 2023] Started project. Added [OSINT](osint/). Added [Anonymity Tools](anonymity-tools.md).
 
 </details>
