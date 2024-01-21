@@ -1,5 +1,5 @@
 ---
-description: Complete beginner learning path in THM.
+description: Complete Beginner learning path in THM.
 ---
 
 # Complete Beginner

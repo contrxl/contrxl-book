@@ -4,7 +4,7 @@ description: Front page posting most recent updates & changes.
 
 # 🏡 Home
 
-#### 1What's going on?
+#### What's going on?
 
 This GitBook will serve as a complete repository of all my notes, research and tools that I use.&#x20;
 
@@ -42,6 +42,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 
 <summary>Jan 2024</summary>
 
+* \[21 Jan] Updated [OSINT](osint/), Added [Walking an Application](tryhackme/learning-paths/jr-penetration-tester/walking-an-application.md), Added [Content Discovery](tryhackme/learning-paths/jr-penetration-tester/content-discovery.md), Added [Subdomain Enumeration](tryhackme/learning-paths/jr-penetration-tester/subdomain-enumeration.md), Added [Authentication Bypass](tryhackme/learning-paths/jr-penetration-tester/authentication-bypass.md), Added [IDOR](tryhackme/learning-paths/jr-penetration-tester/idor.md), Added [File Inclusion](tryhackme/learning-paths/jr-penetration-tester/file-inclusion.md), Added [SSRF](tryhackme/learning-paths/jr-penetration-tester/ssrf.md), Added [XSS (Cross-site Scripting)](tryhackme/learning-paths/jr-penetration-tester/xss-cross-site-scripting.md), Added [Command Injection](tryhackme/learning-paths/jr-penetration-tester/command-injection.md), Added [SQL Injection](tryhackme/learning-paths/jr-penetration-tester/sql-injection.md), Updated [Tools](tools/), Added [Repeater](tools/burp-suite/repeater.md).
 * \[18 Jan] Updated [Cisco](cisco/), Added [10. Linux Privesc](tryhackme/learning-paths/complete-beginner/10.-linux-privesc.md) and [11. More Linux Privesc](tryhackme/learning-paths/complete-beginner/11.-more-linux-privesc.md), Upated [Home](./), Removed HackTheBox \[Nothing planned for it at this moment].
 * \[17 Jan] Added [9. What the shell?](tryhackme/learning-paths/complete-beginner/9.-what-the-shell.md)
 * \[16 Jan] Added [Cisco](cisco/), Added [Exploitation](tools/metasploit/exploitation.md), Added[ Meterpreter](tools/metasploit/meterpreter.md), Updated [Tools](tools/), Removed Rooms \[Now on [https://medium.com/@contrxl](https://medium.com/@contrxl)!].
@@ -50,7 +51,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 * \[13 Jan] Added [5. Upload Vulnerabilities](tryhackme/learning-paths/complete-beginner/5.-upload-vulnerabilities.md) and [5.1 An Example Methodology](tryhackme/learning-paths/complete-beginner/5.1-an-example-methodology.md).
 * \[10 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/), Added [OWASP Juice Shop](broken-reference).
 * \[08 Jan] Updated [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md).
-* \[07 Jan] Added [Burp Suite](tools/burp-suite.md), Added [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/).
+* \[07 Jan] Added [Burp Suite](tools/burp-suite/), Added [4. OWASP Top 10 Exploits](tryhackme/learning-paths/complete-beginner/4.-owasp-top-10-exploits.md), Updated [Tools](tools/).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/), Added [Metasploit](tools/metasploit/).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/).
 * \[05 Jan] Added [Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md), [Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), [Tools](tools/) and [NMAP](tools/nmap.md).
