@@ -27,6 +27,8 @@
 * [⚒ Tools](tools/README.md)
   * [Burp Suite](tools/burp-suite/README.md)
     * [Repeater](tools/burp-suite/repeater.md)
+    * [Intruder](tools/burp-suite/intruder.md)
+    * [Other Modules](tools/burp-suite/other-modules.md)
   * [John the Ripper](tools/john-the-ripper.md)
   * [Metasploit](tools/metasploit/README.md)
     * [Exploitation](tools/metasploit/exploitation.md)

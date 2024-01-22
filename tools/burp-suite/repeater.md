@@ -24,4 +24,14 @@ Repeater provides many presentation options, the section located above the respo
 3. Hex : see the response in a byte level representation.
 4. Render : see the page as it would appear in a web browser.
 
-Next to these options on the right hand side, we see the "Show Non-Printable Characters" button (\n). This displays characters that are not typically visible, for example, each line in the response typically ends with \r\n.
+Next to these options on the right hand side, we see the "Show Non-Printable Characters" button (\n). This displays characters that are not typically visible, for example, each line in the response typically ends with `\r\n`.
+
+### Inspector
+
+Inspector is supplementary to the request/response views in repeater. It can be used to obtain a visually organised breakdwon of requests and responses. Inspector can be used from the far right side of the Proxy and Repeater modules. The inspector allows for viewing and editing of:
+
+* Request Query Parameters : data sent to server in URL, for example, a GET request like `https://example.com/?redirect=false` has the query parameter "redirect" set to false.
+* Request Body Parameters : similar to the above but specific to a POST request, any data sent as part of a POST request will show here.
+* Request Cookies : a modifiable list of cookies.
+* Request Headers : view, access and modify headers sent with requests.
+* Response Headers : headers returned to us by the server in response to our request.
