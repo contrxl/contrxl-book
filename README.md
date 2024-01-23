@@ -14,6 +14,16 @@ Notes, information and guides on general systems administration will also be add
 
 Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed are now being uploaded to my Medium blog [here](https://medium.com/@contrxl)!
 
+#### Personal Goals!
+
+My own to-do list for the year, will update this based on how well I progress!
+
+* [ ] Deepen understanding of theoretical and practical offensive security.
+* [ ] Gain better fundamental knowledge of theoretical and practical defensive security.
+* [ ] Complete ISC2 Certified in Cybersecurity certification.
+* [ ] Look into/complete CompTIA Security+, CompTIA Pentest+.
+* [ ] Continue on track updating this and the blog over on Medium.
+
 #### Upcoming
 
 <details>
@@ -21,7 +31,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 <summary>January 2024</summary>
 
 * [x] Tools section going over frequently used tools and useful web apps.
-* [ ] Write-ups for Advent of Cyber 2023.
+* [ ] Add section to Intune on ADMX configurations (recently used them to set an auto-update policy for Google Chrome!)
 * [x] THM learning path notes
 
 </details>
@@ -42,6 +52,7 @@ Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed
 
 <summary>Jan 2024</summary>
 
+* \[23 Jan] Added [Passive Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/passive-reconnaissance.md), [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md), Updated [Learning Links](learning-links.md), Updated [Home](./).
 * \[22 Jan] Updated [Repeater](tools/burp-suite/repeater.md), Added [Intruder](tools/burp-suite/intruder.md), Added [Other Modules](tools/burp-suite/other-modules.md).
 * \[21 Jan] Updated [OSINT](osint/), Added [Walking an Application](tryhackme/learning-paths/jr-penetration-tester/walking-an-application.md), Added [Content Discovery](tryhackme/learning-paths/jr-penetration-tester/content-discovery.md), Added [Subdomain Enumeration](tryhackme/learning-paths/jr-penetration-tester/subdomain-enumeration.md), Added [Authentication Bypass](tryhackme/learning-paths/jr-penetration-tester/authentication-bypass.md), Added [IDOR](tryhackme/learning-paths/jr-penetration-tester/idor.md), Added [File Inclusion](tryhackme/learning-paths/jr-penetration-tester/file-inclusion.md), Added [SSRF](tryhackme/learning-paths/jr-penetration-tester/ssrf.md), Added [XSS (Cross-site Scripting)](tryhackme/learning-paths/jr-penetration-tester/xss-cross-site-scripting.md), Added [Command Injection](tryhackme/learning-paths/jr-penetration-tester/command-injection.md), Added [SQL Injection](tryhackme/learning-paths/jr-penetration-tester/sql-injection.md), Updated [Tools](tools/), Added [Repeater](tools/burp-suite/repeater.md).
 * \[18 Jan] Updated [Cisco](cisco/), Added [10. Linux Privesc](tryhackme/learning-paths/complete-beginner/10.-linux-privesc.md) and [11. More Linux Privesc](tryhackme/learning-paths/complete-beginner/11.-more-linux-privesc.md), Upated [Home](./), Removed HackTheBox \[Nothing planned for it at this moment].
