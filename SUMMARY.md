@@ -71,3 +71,5 @@
       * [XSS (Cross-site Scripting)](tryhackme/learning-paths/jr-penetration-tester/xss-cross-site-scripting.md)
       * [Command Injection](tryhackme/learning-paths/jr-penetration-tester/command-injection.md)
       * [SQL Injection](tryhackme/learning-paths/jr-penetration-tester/sql-injection.md)
+      * [Passive Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/passive-reconnaissance.md)
+      * [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md)
