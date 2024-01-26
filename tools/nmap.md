@@ -16,13 +16,32 @@ Basic scan types:
 \-sX : TCP Xmas scan\
 \-sN : Ping sweep, rely solely on ICMP ping, send TCP/SYN to 443 and TCP/ACK to 80\
 \-sV : Probe open ports for service/version info\
-\-sC : Script scan
+\-sC : Script scan\
+\-PR : ARP only scan.
+
+### Quick Command Line Option Ref
+
+| Scan Type              | Example Command                            |
+| ---------------------- | ------------------------------------------ |
+| ARP Scan               | sudo nmap -PR -sn \[IP\_ADDR]/24           |
+| ICMP Echo Scan         | sudo nmap -PE -sn \[IP\_ADDR]/24           |
+| ICMP Timestamp Scan    | sudo nmap -PP -sn \[IP\_ADDR]/24           |
+| ICMP Address Mask Scan | sudo nmap -PM -sn \[IP\_ADDR]/24           |
+| TCP SYN Ping Scan      | sudo nmap -PS22,80,443 -sn \[IP\_ADDR]/30  |
+| TCK ACK Ping Scan      | sudo nmap -PA22,80,443 -sn \[IP\_ADDR]/30  |
+| UDP Ping Scan          | sudo nmap -PU53,161,162 -sn \[IP\_ADDR]/30 |
+
+Adding -sn tells nmap to perform host discovery only and no port-scanning. -n will prevent DNS lookup, -R will do reverse-DNS for all hosts.
 
 ### Useful Common Syntax
 
 \-p- : tell nmap to scan all ports\
 \-A : aggressive mode, should not be used against networks without prior permission.\
-\-v or -vv : verbose or very verbose mode
+\-v or -vv : verbose or very verbose mode\
+\-sL : check list of hosts that will be scanned, nmap will attempt reverse-DNS resolution\
+\-n : do not attempt DNS resolution\
+\-iL : provide a txt file for input\
+\-PP : use ICMP timestamp requests
 
 ### TCP Connect
 
@@ -47,4 +66,10 @@ Xmas scans send a malformed TCP packet and expect a RST if a port is closed. It 
 ### Ping Sweep
 
 NMAP sends an ICMP request to every possible IP in the network, if it receives a response it marks the IP as alive. CIDR notation can be used or a hyphen e.g. 192.168.0.1-254 or 192.168.0.0/24 would work.
+
+### Spoofing and Decoy Scanning
+
+A spoofed scan be be run using `nmap -e [NET_INTERFACE] -Pn -S [SPOOF_IP] [TARGET_IP]`, this will specify a network interface for nmap and give it a spoofed IP address to use. This type of scanning is useless unless you are able to monitor the network for responses. If you are on the same subnet as the target you can also use `--spoof-mac [SPOOF_MAC]` to spoof your MAC address.
+
+A decoy can be launched by using `-D` and specifying a specific/random IP address. For example, a scan like `nmap -D 10.10.10.10,10.10.10.11,ME [TARGET_IP]` would show the scan as coming from 10.10.10.10 and 10.10.10.11 as well as your own IP address. Another way to run this is `nmap -D 10.10.10.10,10.10.10.11,RND,RND,ME [TARGET_IP]` where "RND" will generate a random IP address assignment.
 

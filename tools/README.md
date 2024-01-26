@@ -7,6 +7,7 @@ description: A list of useful tools & utilities.
 A growing list of tools & utilities to help with a wide range of tasks. Basic or web based tools will be listed on this main page, whilst more in-depth explanations of more unique tools will get their own sub-page.
 
 * [AppDevTools](https://appdevtools.com/) : extensive list of useful developer tools.
+* [arp-scan](https://www.kali.org/tools/arp-scan/) : local network scanner.
 * [Crackstation](https://crackstation.net/) : online password hash cracking tool.
 * [FlareVM](https://github.com/mandiant/flare-vm) : a pre-built reverse engineering environment designed to be installed on a Windows VM, installation instructions can be found on [Mandiant](https://www.mandiant.com/resources/blog/flarevm-open-to-public).
 * [GTFOBins](https://gtfobins.github.io/) : curated list of exploitable Unix binaries.
