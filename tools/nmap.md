@@ -73,3 +73,9 @@ A spoofed scan be be run using `nmap -e [NET_INTERFACE] -Pn -S [SPOOF_IP] [TARGE
 
 A decoy can be launched by using `-D` and specifying a specific/random IP address. For example, a scan like `nmap -D 10.10.10.10,10.10.10.11,ME [TARGET_IP]` would show the scan as coming from 10.10.10.10 and 10.10.10.11 as well as your own IP address. Another way to run this is `nmap -D 10.10.10.10,10.10.10.11,RND,RND,ME [TARGET_IP]` where "RND" will generate a random IP address assignment.
 
+### Saving Output
+
+There are three methods for saving output on NMAP: Normal, Grepable and XML. Normal is what you see when you scan a target, this is achieved with `-oN`. The second output mode is grepable, this makes the output efficient to filter with grep. This can be achieved with `-oG`. Finally, XML allows saving of results as an XML, this can be achieved with `-oX`.&#x20;
+
+Output can be saved in all three formats with `-oA`.
+

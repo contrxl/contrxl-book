@@ -73,3 +73,5 @@
       * [SQL Injection](tryhackme/learning-paths/jr-penetration-tester/sql-injection.md)
       * [Passive Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/passive-reconnaissance.md)
       * [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md)
+      * [Protocols and Servers](tryhackme/learning-paths/jr-penetration-tester/protocols-and-servers.md)
+      * [Protocol and Server Attacks](tryhackme/learning-paths/jr-penetration-tester/protocol-and-server-attacks.md)

@@ -20,8 +20,8 @@ My own to-do list for the year, will update this based on how well I progress!
 
 * [ ] Deepen understanding of theoretical and practical offensive security.
 * [ ] Gain better fundamental knowledge of theoretical and practical defensive security.
-* [ ] Complete ISC2 Certified in Cybersecurity certification.
-* [ ] Look into/complete CompTIA Security+, CompTIA Pentest+.
+* [x] Complete ISC2 Certified in Cybersecurity course.
+* [ ] Look into/complete OSCP courses/certification.
 * [ ] Continue on track updating this and the blog over on Medium.
 
 #### Upcoming
@@ -52,6 +52,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 <summary>Jan 2024</summary>
 
+* \[31 Jan] Updated [Home](./), Updated [NMAP](tools/nmap.md), Added [Protocols and Servers](tryhackme/learning-paths/jr-penetration-tester/protocols-and-servers.md), Added [Protocol and Server Attacks](tryhackme/learning-paths/jr-penetration-tester/protocol-and-server-attacks.md).
 * \[26 Jan] Updated [NMAP](tools/nmap.md).
 * \[23 Jan] Added [Passive Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/passive-reconnaissance.md), [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md), Updated [Learning Links](learning-links.md), Updated [Home](./).
 * \[22 Jan] Updated [Repeater](tools/burp-suite/repeater.md), Added [Intruder](tools/burp-suite/intruder.md), Added [Other Modules](tools/burp-suite/other-modules.md).
