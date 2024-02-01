@@ -26,32 +26,27 @@ My own to-do list for the year, will update this based on how well I progress!
 
 #### Upcoming
 
-<details>
-
-<summary>January 2024</summary>
-
-* [x] Tools section going over frequently used tools and useful web apps.
+{% tabs %}
+{% tab title="Feb 2024" %}
 * [ ] Add section to Intune on ADMX configurations (recently used them to set an auto-update policy for Google Chrome!)
+{% endtab %}
+
+{% tab title="Jan 2024" %}
+* [x] Tools section going over frequently used tools and useful web apps.
 * [x] THM learning path notes
+{% endtab %}
 
-</details>
-
-<details>
-
-<summary>December 2023</summary>
-
+{% tab title="Dec 2023" %}
 * [x] Intune remediation scripts.
 * [x] Intune emergency app patching without supersedence.
 * [x] Write-ups for TryHackMe Advent of Cyber 2023. \[In Progress!]
-
-</details>
+{% endtab %}
+{% endtabs %}
 
 #### Latest Updates
 
-<details>
-
-<summary>Jan 2024</summary>
-
+{% tabs %}
+{% tab title="Jan 2024" %}
 * \[31 Jan] Updated [Home](./), Updated [NMAP](tools/nmap.md), Added [Protocols and Servers](tryhackme/learning-paths/jr-penetration-tester/protocols-and-servers.md), Added [Protocol and Server Attacks](tryhackme/learning-paths/jr-penetration-tester/protocol-and-server-attacks.md).
 * \[26 Jan] Updated [NMAP](tools/nmap.md).
 * \[23 Jan] Added [Passive Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/passive-reconnaissance.md), [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md), Updated [Learning Links](learning-links.md), Updated [Home](./).
@@ -71,18 +66,14 @@ My own to-do list for the year, will update this based on how well I progress!
 * \[05 Jan] Added [Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md), [Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), [Tools](tools/) and [NMAP](tools/nmap.md).
 * \[04 Jan] Added [Day 5](tryhackme/advent-of-cyber-2023/day-5-a-christmas-doscovery-tapes-of-yule-tide-past.md), [Day 6](tryhackme/advent-of-cyber-2023/day-6-memories-of-christmas-past.md), [Day 7](tryhackme/advent-of-cyber-2023/day-7-tis-the-season-for-log-chopping.md) and [Day 8](tryhackme/advent-of-cyber-2023/day-8-have-a-holly-jolly-byte.md) to Advent of Cyber 2023. Added [Vulnerability OSINT](osint/vulnerability-osint.md). Added [Learning Paths](tryhackme/learning-paths/).
 * \[03 Jan] Added [Day 2](tryhackme/advent-of-cyber-2023/day-2-o-data-all-ye-faithful.md), [Day 3](tryhackme/advent-of-cyber-2023/day-3-hydra-is-coming-to-town.md) and [Day 4](tryhackme/advent-of-cyber-2023/day-4-baby-its-cewld-outside.md) to Advent of Cyber 2023. Updated [News & Information](news-and-information.md).
+{% endtab %}
 
-</details>
-
-<details>
-
-<summary>Dec 2023</summary>
-
+{% tab title="Dec 2023" %}
 * \[20 Dec 2023] Updated [Intune](intune/). Added links to [GitHub](https://github.com/contrxl/central/tree/main). Added [Remediations](intune/remediations.md).
 * \[18 Dec 2023] Updated [Intune](intune/). Added [App Updating/Patching](intune/app-updating-patching.md).
 * \[15 Dec 2023] Added [Projects](projects/). Uploaded [A Simulation Study of DDoS](projects/a-simulation-study-of-ddos.md).
 * \[13 Dec 2023] Updated [Home](./). Added [Microsoft Portal Links](microsoft-portal-links.md). Added [App Deployment](intune/app-deployment.md). Added [Intune](intune/). Added [Learning Links](learning-links.md).
 * \[12 Dec 2023] Updated [OSINT](osint/). Added [News & Information](news-and-information.md). Added [TryHackMe](tryhackme/). Added [HackTheBox](broken-reference).
 * \[11 Dec 2023] Started project. Added [OSINT](osint/). Added [Anonymity Tools](anonymity-tools.md).
-
-</details>
+{% endtab %}
+{% endtabs %}
