@@ -75,3 +75,4 @@
       * [Active Reconnaissance](tryhackme/learning-paths/jr-penetration-tester/active-reconnaissance.md)
       * [Protocols and Servers](tryhackme/learning-paths/jr-penetration-tester/protocols-and-servers.md)
       * [Protocol and Server Attacks](tryhackme/learning-paths/jr-penetration-tester/protocol-and-server-attacks.md)
+      * [Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/vulnerabilities.md)

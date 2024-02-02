@@ -28,7 +28,8 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
-* [ ] Add section to Intune on ADMX configurations (recently used them to set an auto-update policy for Google Chrome!)
+* [ ] Add section to Intune on ADMX configurations.&#x20;
+* [ ] Add section to Intune on file deployment via Intune.
 {% endtab %}
 
 {% tab title="Jan 2024" %}
@@ -46,6 +47,10 @@ My own to-do list for the year, will update this based on how well I progress!
 #### Latest Updates
 
 {% tabs %}
+{% tab title="Feb 2024" %}
+* \[02 Feb] Updated [Home](./), Added [Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/vulnerabilities.md).
+{% endtab %}
+
 {% tab title="Jan 2024" %}
 * \[31 Jan] Updated [Home](./), Updated [NMAP](tools/nmap.md), Added [Protocols and Servers](tryhackme/learning-paths/jr-penetration-tester/protocols-and-servers.md), Added [Protocol and Server Attacks](tryhackme/learning-paths/jr-penetration-tester/protocol-and-server-attacks.md).
 * \[26 Jan] Updated [NMAP](tools/nmap.md).
