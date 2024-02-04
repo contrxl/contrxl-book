@@ -48,6 +48,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[04 Feb] Removed Advent of Cyber 2023 (May do full upload on Medium), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Updated [Tools](tools/), Added [Exploiting Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/exploiting-vulnerabilities.md), Added [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md).
 * \[02 Feb] Updated [Home](./), Added [Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/vulnerabilities.md).
 {% endtab %}
 
@@ -69,8 +70,8 @@ My own to-do list for the year, will update this based on how well I progress!
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/), Added [Metasploit](tools/metasploit/).
 * \[06 Jan] Updated [3.1 Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), Updated [Tools](tools/).
 * \[05 Jan] Added [Introductory Networking](tryhackme/learning-paths/complete-beginner/3.-introductory-networking.md), [Network Exploitation Basics](tryhackme/learning-paths/complete-beginner/3.1-network-exploitation-basics.md), [Tools](tools/) and [NMAP](tools/nmap.md).
-* \[04 Jan] Added [Day 5](tryhackme/advent-of-cyber-2023/day-5-a-christmas-doscovery-tapes-of-yule-tide-past.md), [Day 6](tryhackme/advent-of-cyber-2023/day-6-memories-of-christmas-past.md), [Day 7](tryhackme/advent-of-cyber-2023/day-7-tis-the-season-for-log-chopping.md) and [Day 8](tryhackme/advent-of-cyber-2023/day-8-have-a-holly-jolly-byte.md) to Advent of Cyber 2023. Added [Vulnerability OSINT](osint/vulnerability-osint.md). Added [Learning Paths](tryhackme/learning-paths/).
-* \[03 Jan] Added [Day 2](tryhackme/advent-of-cyber-2023/day-2-o-data-all-ye-faithful.md), [Day 3](tryhackme/advent-of-cyber-2023/day-3-hydra-is-coming-to-town.md) and [Day 4](tryhackme/advent-of-cyber-2023/day-4-baby-its-cewld-outside.md) to Advent of Cyber 2023. Updated [News & Information](news-and-information.md).
+* \[04 Jan] Added [Day 5](broken-reference), [Day 6](broken-reference), [Day 7](broken-reference) and [Day 8](broken-reference) to Advent of Cyber 2023. Added [Vulnerability OSINT](osint/vulnerability-osint.md). Added [Learning Paths](tryhackme/learning-paths/).
+* \[03 Jan] Added [Day 2](broken-reference), [Day 3](broken-reference) and [Day 4](broken-reference) to Advent of Cyber 2023. Updated [News & Information](news-and-information.md).
 {% endtab %}
 
 {% tab title="Dec 2023" %}
