@@ -68,3 +68,4 @@
       * [Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/vulnerabilities.md)
       * [Exploiting Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/exploiting-vulnerabilities.md)
       * [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md)
+      * [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md)

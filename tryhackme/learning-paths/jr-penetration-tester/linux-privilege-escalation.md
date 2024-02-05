@@ -96,3 +96,39 @@ The command `find / -type f -perm -04000 -ls 2>/dev/null` will show files that h
 ### Capability Exploits
 
 Capabilities help manage privileges at a granular level. For example, a binary can have its capability set to allow it to run a task as a higher privilege. The getcap tool can be used to list enabled capabilities with `getcap -r / 2>/dev/null`.
+
+### Cron Job Exploits
+
+A cron job is used to run a script or binary at a specific time, by default, these run with the privilege of their owner and not the current user. Properly configured cron jobs are not inherently vulnerable, but they can provide a privilege escalation vector in some situations.
+
+Cron job configurations are stored as crontabs (cron tables). Each user on the system has their crontab file and can run specific tasks whether logged in or not. Any user can read system wide cron jobs under `/etc/crontab`.
+
+Crontab is always worth checking as it can lead to easy privilege escalation vectors, companies with less mature cyber security can often have situations like:
+
+1. System admins need to run a script at regular intervals
+2. They make a cron job for it
+3. After some time, the script is not required and deleted
+4. The cron job is left uncleaned
+
+### PATH Exploits
+
+If a folder which your user has write permission for is located in the path, you could hijack an application to run a script. PATH tells the OS where to look for executables. Any command not built into shell or not defined with an absolute path, Linux will search folders defined under PATH. Typing echo $PATH will show the PATH. Before attempting this consider:
+
+1. What folders are in $PATH
+2. Do you have write privilege for any of these?
+3. Can you modify $PATH?
+4. Is there a script/app affected by this?
+
+A simple command to search for writable folders can be done with: `find / -writable 2>/dev/null`. This can be cleaned with:
+
+```
+find / -writable 2>/dev/null | cut -d "/" -f 2 | grep -v proc | sort -u
+```
+
+You can add to path by using `export PATH=/folder:$PATH`.
+
+### NFS Exploits
+
+Shared folders and remote management interfaces like SSH and Telnet can also be used to help gain root access on a target. Most relevant in CTFs/exams will be misconfigured network shells.
+
+NFS (Network File Sharing) configurations are kept in `/etc/exports`. This file can usually be read by all users. The critical elemnet in NFS exploits is ensuring that "no\_root\_squash" is set. By default, NFS will change the root user to nfsnobody and strip files from operating as root, however, if "no\_root\_squash" is set, then we can create an executable with an SUID bit and run it.

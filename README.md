@@ -48,6 +48,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[05 Feb] Updated [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md), Added [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md), Updated [Tools](tools/).
 * \[04 Feb] Removed Advent of Cyber 2023 (May do full upload on Medium), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Updated [Tools](tools/), Added [Exploiting Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/exploiting-vulnerabilities.md), Added [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md).
 * \[02 Feb] Updated [Home](./), Added [Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/vulnerabilities.md).
 {% endtab %}
