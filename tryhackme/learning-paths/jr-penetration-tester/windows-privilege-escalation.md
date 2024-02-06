@@ -142,3 +142,37 @@ sc config [service_name] binPath= "C:\Path\To\Scary.exe" obj= LocalSystem
 ```
 
 Note that any account can be used to run the service, LocalSystem is just an example. Restarting the service will now execute the new, malicious executable.
+
+### Privileges - SeBackup/SeRestore
+
+Privileges can be checked with `whoami /priv`. SeBackup and SeRestore allow a user to read/write anywhere, ignoring any in place DACL. The idea behind this is to allow users to perform system backups without requiring full administrative privileges. Using this privilege, it is possible to backup the SAM & SYSTEM hashes with:
+
+```
+reg save hklm\system C:\Users\Test\system.hive
+reg save hklm\sam C:\Users\Test\sam.hive
+```
+
+This can then be used with a script like impacket to retrieve the admin password hash to either try to crack or to use in a pass-the-hash attack.
+
+### Privileges - SeTakeOwnership
+
+This privilege allows a user to take ownership of any object on the system including files and registry keys. This allows you to take ownership of a file running as SYSTEM, for example, you could replace a file running as SYSTEM with a copy of cmd.exe, meaning that the next time that file is run, it instead opens a command prompt Window as SYSTEM. To take ownership of a file run:
+
+```
+takeown /f C:\Windows\System32\SomeFile.exe
+icacls C:\Windows\System32\SomeFile.exe /grant [your_user]:F
+```
+
+### Privileges - SeImpersonate/SeAssignPrimaryToken
+
+Allow a process to impersonate other users and act on their behalf. If you manage to take control of a process with SeImpersonate or SeAssignPrimaryToken privilege, then you can impersonate any user connecting and authenticating to that process.
+
+### Unpatched Software
+
+Unpatched software can present privilege escalation opportunities, organisations and users may not update their software as often as the OS. `wmic` can be used to list software by using:
+
+```
+wmic product get name,version,vendor
+```
+
+This may not return all programs depending on how they were installed. Once version information is gathered, OSINT can be used to find vulnerabilities.

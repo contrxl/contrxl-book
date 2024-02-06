@@ -69,3 +69,7 @@
       * [Exploiting Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/exploiting-vulnerabilities.md)
       * [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md)
       * [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md)
+    * [CompTIA Pentest+](tryhackme/learning-paths/comptia-pentest+/README.md)
+      * [Planning and Scoping](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/README.md)
+        * [Pentesting Fundamentals](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/pentesting-fundamentals.md)
+        * [Red Team Engagements](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/red-team-engagements.md)
