@@ -21,8 +21,8 @@ My own to-do list for the year, will update this based on how well I progress!
 * [ ] Deepen understanding of theoretical and practical offensive security.
 * [ ] Gain better fundamental knowledge of theoretical and practical defensive security.
 * [x] Complete ISC2 Certified in Cybersecurity course.
-* [ ] Look into/complete OSCP courses/certification.
-* [ ] Continue on track updating this and the blog over on Medium.
+* [ ] Look into/complete COMTIA courses/certification.
+* [ ] Continue on track updating this and the blog at Medium.
 
 #### Upcoming
 
@@ -48,6 +48,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[07 Feb] Added [Governance and Regulation](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/governance-and-regulation.md).
 * \[06 Feb] Updated [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md), Added [CompTIA Pentest+](tryhackme/learning-paths/comptia-pentest+/), Added [Planning and Scoping](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/), Added [Pentesting Fundamentals](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/pentesting-fundamentals.md), Added [Red Team Engagements](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/red-team-engagements.md).
 * \[05 Feb] Updated [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md), Added [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md), Updated [Tools](tools/).
 * \[04 Feb] Removed Advent of Cyber 2023 (May do full upload on Medium), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Updated [Tools](tools/), Added [Exploiting Vulnerabilities](tryhackme/learning-paths/jr-penetration-tester/exploiting-vulnerabilities.md), Added [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md).
