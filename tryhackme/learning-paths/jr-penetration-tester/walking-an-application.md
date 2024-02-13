@@ -18,7 +18,7 @@ Finding interactive website sections is important in recon, a good way to start 
 
 Page source can be viewed in most browsers by right-clicking the page and selecting "View Page Source", alternatively you can put "view-source:" in front of the address, like: view-source:https://www.google.com.&#x20;
 
-In page source you can view HTML code, look for comments left behind by developers, denoted by code that starts with `<!--` and ends with `-->`. Links to other pages can also be seen in anchor tags, these start with `<a href` and enmd with `</a>`.
+In page source you can view HTML code, look for comments left behind by developers, denoted by code that starts with `<!--` and ends with `-->`. Links to other pages can also be seen in anchor tags, these start with `<a href` and end with `</a>`.
 
 External files like CSS, JavaScript and images can be included in HTML. These files should lead to a 403 or blank page stating no access. If these are viewable to the public there is a chance they could expose private information to the public.
 

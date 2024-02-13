@@ -22,7 +22,7 @@ The favicon is a small icon which is displayed in the browser's address bar or t
 
 The "sitemap.xml" file gives a list of all the files the owner wishes to be listed on a search engine. This can contain areas of the website that are hard to navigate to, or even list old webpages.
 
-HTTP headers are seen when we make requests to a web server, headers can contain useful infomration like the webserver software or potentially the programming/scripting language being used. We can use `curl http://[IP_ADDR] -v` to see this.
+HTTP headers are seen when we make requests to a web server, headers can contain useful information like the web server software or potentially the programming/scripting language being used. We can use `curl http://[IP_ADDR] -v` to see this.
 
 If you have located the framework a site is using, you can then locate the website for the framework and find other information.
 
@@ -39,7 +39,7 @@ Google hacking/dorking is the practice of utilising Google's advanced search eng
 
 [Wappalyzer](https://www.wappalyzer.com/) is an online tool/browser extension that can help identify what technologies a website is using, like frameworks, Content Management Systems (CMS), payment processors and more.
 
-[The Wayback Machine](https://archive.org/) is a historical archive of sites dating back to the 90s, you can serach for a domain name and it will return all the times it was scraped for content.
+[The Wayback Machine](https://archive.org/) is a historical archive of sites dating back to the 90s, you can search for a domain name and it will return all the times it was scraped for content.
 
 GitHub can be used to search for company names or websites to try and find repositories belonging to a target, if successful, you may have access to source code or other content.
 

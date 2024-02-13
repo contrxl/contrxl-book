@@ -12,7 +12,7 @@ Telnet is not reliable for remote administration, as all data is sent in clearte
 
 ### Hyper Text Transfer Protocol (HTTP)
 
-HTTP is used to transfer web pages, your browser connects to the webserver and uses HTTP to request HTML pages. HTTP sends and receives data as cleartext, so a simple tool like Netcat or Telnet can be used to act like a web browser. Three popular choices for HTTP servers are: Apache, Internet Information Services (IIS) and nginx. Both Apache and nginx are free, whilst IIS requires a license payment.
+HTTP is used to transfer web pages, your browser connects to the web server and uses HTTP to request HTML pages. HTTP sends and receives data as cleartext, so a simple tool like Netcat or Telnet can be used to act like a web browser. Three popular choices for HTTP servers are: Apache, Internet Information Services (IIS) and nginx. Both Apache and nginx are free, whilst IIS requires a license payment.
 
 ### File Transfer Protocol (FTP)
 
@@ -26,7 +26,7 @@ Some useful FTP commands are:
 `TYPE A` : switches file transfer mode to ASCII\
 `TYPE I` : switches file transfer mode to binary
 
-FTP has two main modes: active and passive. Active sends data over a separate channel originating from the FTP server's port 20. Passive sends data over a separate channel originating from an FTP client's port number above 1023. Some common FTP server softwares are: vsftpd, ProFTPD and uFTP.
+FTP has two main modes: active and passive. Active sends data over a separate channel originating from the FTP server's port 20. Passive sends data over a separate channel originating from an FTP client's port number above 1023. Some common FTP server software's are: vsftpd, ProFTPD and uFTP.
 
 ### Simple Mail Transfer Protocol (SMTP)
 

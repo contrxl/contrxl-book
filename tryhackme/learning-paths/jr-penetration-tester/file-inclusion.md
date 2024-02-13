@@ -10,7 +10,7 @@ In some scenarios, web apps are configured to request access to files on a given
 
 ### Path Traversal
 
-Also known as directory traversal, a web app vulnerability can be used to allow an attacker to read OS resources like local files on teh server. Path traversal occurs when the user's input is passed to a funtion like "file\_get\_contents" in PHP.&#x20;
+Also known as directory traversal, a web app vulnerability can be used to allow an attacker to read OS resources like local files on the server. Path traversal occurs when the user's input is passed to a function like "file\_get\_contents" in PHP.&#x20;
 
 The behaviour of the URL can be tested by using the dot-dot-slash attack. An example of this would be modifying a URL to: http://app.com/get.php?file=../../../../etc/passwd, if this returns the contents of /etc/passwd then we have a path traversal vulnerability.
 

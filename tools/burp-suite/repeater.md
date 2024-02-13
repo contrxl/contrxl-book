@@ -19,7 +19,7 @@ Repeater enables the modification and resending of intercepted requests to a tar
 
 Repeater provides many presentation options, the section located above the response box gives us four choices:
 
-1. Pretty : default option, takes teh raw response and applies slight formatting enhancements to improve readability.
+1. Pretty : default option, takes the raw response and applies slight formatting enhancements to improve readability.
 2. Raw : displays unmodified response directly from server without formatting.
 3. Hex : see the response in a byte level representation.
 4. Render : see the page as it would appear in a web browser.
@@ -28,7 +28,7 @@ Next to these options on the right hand side, we see the "Show Non-Printable Cha
 
 ### Inspector
 
-Inspector is supplementary to the request/response views in repeater. It can be used to obtain a visually organised breakdwon of requests and responses. Inspector can be used from the far right side of the Proxy and Repeater modules. The inspector allows for viewing and editing of:
+Inspector is supplementary to the request/response views in repeater. It can be used to obtain a visually organised breakdown of requests and responses. Inspector can be used from the far right side of the Proxy and Repeater modules. The inspector allows for viewing and editing of:
 
 * Request Query Parameters : data sent to server in URL, for example, a GET request like `https://example.com/?redirect=false` has the query parameter "redirect" set to false.
 * Request Body Parameters : similar to the above but specific to a POST request, any data sent as part of a POST request will show here.

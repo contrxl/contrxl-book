@@ -40,7 +40,7 @@ Enumeration is important in post-compromise situations, below are useful command
 * `netstat -at/-au` : show TCP or UDP respectively&#x20;
 * `netstat -ano` : display all sockets, do not resolve hostnames and display timers
 * `find` : search system for potential escalation vectors
-* `find / writable -type d 2>/dev/null` : find world-writable folders
+* `find / writeable -type d 2>/dev/null` : find world-writeable folders
 
 ### Kernel Exploits
 
@@ -81,7 +81,7 @@ This can be saved as `shell.c` and compiled with gcc into a shared object file:
 gcc -fPIC -shared -o shell.so shell.c -nostartfiles
 ```
 
-This can then be run with sudo specifiying the `LD_PRELOAD` option:
+This can then be run with sudo specifying the `LD_PRELOAD` option:
 
 ```
 sudo LD_PRELOAD=/home/user/preload/shell.so find
@@ -119,7 +119,7 @@ If a folder which your user has write permission for is located in the path, you
 3. Can you modify $PATH?
 4. Is there a script/app affected by this?
 
-A simple command to search for writable folders can be done with: `find / -writable 2>/dev/null`. This can be cleaned with:
+A simple command to search for writeable folders can be done with: `find / -writeable 2>/dev/null`. This can be cleaned with:
 
 ```
 find / -writable 2>/dev/null | cut -d "/" -f 2 | grep -v proc | sort -u
@@ -131,4 +131,4 @@ You can add to path by using `export PATH=/folder:$PATH`.
 
 Shared folders and remote management interfaces like SSH and Telnet can also be used to help gain root access on a target. Most relevant in CTFs/exams will be misconfigured network shells.
 
-NFS (Network File Sharing) configurations are kept in `/etc/exports`. This file can usually be read by all users. The critical elemnet in NFS exploits is ensuring that "no\_root\_squash" is set. By default, NFS will change the root user to nfsnobody and strip files from operating as root, however, if "no\_root\_squash" is set, then we can create an executable with an SUID bit and run it.
+NFS (Network File Sharing) configurations are kept in `/etc/exports`. This file can usually be read by all users. The critical element in NFS exploits is ensuring that "no\_root\_squash" is set. By default, NFS will change the root user to nfsnobody and strip files from operating as root, however, if "no\_root\_squash" is set, then we can create an executable with an SUID bit and run it.

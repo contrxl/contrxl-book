@@ -12,7 +12,7 @@ Notes, information and guides on general systems administration will also be add
 
 #### More stuff!
 
-Writeups and walkthroughs of THM Rooms or other Capture the Flags I've completed are now being uploaded to my Medium blog [here](https://medium.com/@contrxl)!
+Write-ups and walkthroughs of THM Rooms or other Capture the Flags I've completed are now being uploaded to my Medium blog [here](https://medium.com/@contrxl)!
 
 #### Personal Goals!
 
@@ -21,7 +21,7 @@ My own to-do list for the year, will update this based on how well I progress!
 * [ ] Deepen understanding of theoretical and practical offensive security.
 * [ ] Gain better fundamental knowledge of theoretical and practical defensive security.
 * [x] Complete ISC2 Certified in Cybersecurity course.
-* [ ] Look into/complete COMTIA courses/certification.
+* [ ] Look into/complete COMPTIA courses/certification.
 * [ ] Continue on track updating this and the blog at Medium.
 
 #### Upcoming
@@ -34,7 +34,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tab title="Jan 2024" %}
 * [x] Tools section going over frequently used tools and useful web apps.
-* [x] THM learning path notes
+* [x] THM learning path notes.
 {% endtab %}
 
 {% tab title="Dec 2023" %}
@@ -48,6 +48,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[13 Feb] Updated [Governance and Regulation](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/governance-and-regulation.md), Added [Tools and Code Analysis](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/), Added [Metasploit: Introduction](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/metasploit-introduction.md), Added [Wireshark: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/wireshark-the-basics.md), Added [Burp Suite: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/burp-suite-the-basics.md),  Added [Wireshark](tools/wireshark.md).
 * \[07 Feb] Added [Governance and Regulation](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/governance-and-regulation.md).
 * \[06 Feb] Updated [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md), Added [CompTIA Pentest+](tryhackme/learning-paths/comptia-pentest+/), Added [Planning and Scoping](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/), Added [Pentesting Fundamentals](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/pentesting-fundamentals.md), Added [Red Team Engagements](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/red-team-engagements.md).
 * \[05 Feb] Updated [Linux Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/linux-privilege-escalation.md), Added [Windows Privilege Escalation](tryhackme/learning-paths/jr-penetration-tester/windows-privilege-escalation.md), Updated [Tools](tools/).

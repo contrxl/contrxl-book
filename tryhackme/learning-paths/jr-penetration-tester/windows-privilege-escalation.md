@@ -13,7 +13,7 @@ Privilege escalation is usually when you are given access to a host with "user A
 * Vulnerable software
 * Missing Windows Security Patches
 
-Windows systems typically have two types of users: Administrators who can change any system config paramter and access any file in the system & Standard Users who can perform limited tasks, typically cannot change the system and are limited only to their files.
+Windows systems typically have two types of users: Administrators who can change any system config parameter and access any file in the system & Standard Users who can perform limited tasks, typically cannot change the system and are limited only to their files.
 
 There are also built-in accounts used by the OS:
 
@@ -23,7 +23,7 @@ There are also built-in accounts used by the OS:
 
 ### Password Harvesting - Unattended Installation
 
-When installing Windows on a large number of hosts, Admins may use Windows Deployment Services which allows a single OS image to be deployed to muiltiple hosts on the network. This is referred to as unattanded installation. These installs require admin accounts for initial setup, which can end up being stored in:
+When installing Windows on a large number of hosts, Admins may use Windows Deployment Services which allows a single OS image to be deployed to multiple hosts on the network. This is referred to as unattended installation. These installs require admin accounts for initial setup, which can end up being stored in:
 
 * C:\Unattend.xml
 * C:\Windows\Panther\Unattend\Unattend.xml

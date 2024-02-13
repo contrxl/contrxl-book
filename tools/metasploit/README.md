@@ -30,7 +30,7 @@ To view evasion modules, which help evade antivirus solutions directly, run the 
 
 To view exploits, run the following command in `msfconsole`: `show exploits`. For cleaner output, run `tree -L 1 exploits/` from the Metasploit modules directory (/usr/share/metasploit-framework/modules on Kali).
 
-NOPs (No OPerations) do nothing, they are represented in the Intel x86 family by 0x90, after which the CPU will do nothing for one cycle, these are often used to achieve consistent payload sizes, to view NOPs run the following command in `msfconsole`: `show nops`. For cleaner output, run `tree -L 1 nops/` from the Metasploit modules directory (/usr/share/metasploit-framework/modules on Kali).
+NOPs (No Operations) do nothing, they are represented in the Intel x86 family by 0x90, after which the CPU will do nothing for one cycle, these are often used to achieve consistent payload sizes, to view NOPs run the following command in `msfconsole`: `show nops`. For cleaner output, run `tree -L 1 nops/` from the Metasploit modules directory (/usr/share/metasploit-framework/modules on Kali).
 
 Payloads are code that runs on target systems, exploits leverage a vulnerability and payloads run to achieve the desired results. To view payloads, run the following command in `msfconsole`: `show payloads`. For cleaner output, run `tree -L 1 payloads/` from the Metasploit modules directory (/usr/share/metasploit-framework/modules on Kali). Payloads are separated into four different directories:
 
@@ -77,7 +77,7 @@ Good practice is to always run `show options` once a module has been selected to
 * LPORT : "localport", the port to use for a reverse shell to connect back to, this is a port on your attacking machine and can be any port not used by another app.
 * SESSION : used with post-exploit modules that connect using an existing connection.
 
-Any set parameter can be overriden by using the `set` command again, or all parameters can be cleared using `unset all`. The `setg` command can be used to set a value that will be used for all modules, for example if you used `setg RHOSTS 10.10.10.10` then this would now be set for all modules. You can clear values set with this using `unsetg`.
+Any set parameter can be overridden by using the `set` command again, or all parameters can be cleared using `unset all`. The `setg` command can be used to set a value that will be used for all modules, for example if you used `setg RHOSTS 10.10.10.10` then this would now be set for all modules. You can clear values set with this using `unsetg`.
 
 Once you have set up a module, you can run it using the `exploit` command or the `run` command. You can use this with no parameters or the `-z` parameter. `-z` will run the exploit and background the session as soon as it opens.
 

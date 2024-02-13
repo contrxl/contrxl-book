@@ -45,7 +45,7 @@ The interconnection of ISPs forms an information superhighway that connects the 
 
 ### Cable and Digital Subscriber Line (DSL)
 
-Cable is typically offered by cable television service providers, the internet signal is carried on the coaxial cable which is also used to deliver television. A cable modem separates the internet signal from other signals carried on the cable as well as provides an ethernet connection to a host computer.
+Cable is typically offered by cable television service providers, the internet signal is carried on the coaxial cable which is also used to deliver television. A cable modem separates the internet signal from other signals carried on the cable as well as provides an Ethernet connection to a host computer.
 
 DSL is a high bandwidth, always on, internet connection. This requires a special high-speed modem to separate the DSL signal from the telephone signal. DSL splits a telephone line into three channels. One channel is used for telephone calls, a second channel is used for downloads and a third channel is used for sending or uploading information. With DSL, the farther you are from the central office, the slower the connection will be.
 

@@ -57,14 +57,14 @@ On the following screen, choose your .intunewin file created previously and then
 
 <figure><img src="../.gitbook/assets/app_deploy_3.png" alt=""><figcaption><p>The "App Information" form for app deployment on Intune</p></figcaption></figure>
 
-The next step is the **"Program"** tab. Here we will specify an **"Install Command"** and an **"Uninstall Command"** as well as any installation or restart behaviors we wish to trigger. For our app installation parameters we will use TestApp.exe /install /qn and for uninstallation we will use TestApp.exe /uninstall /qn. Unless the app requires otherwise you should generally leave this on **"System."** Optionally, we can also set the **"Installation time required (mins)"** and **"Allow available uninstall."** These options allow you specify how long the system will wait for an installation to finish and whether users are able to uninstall the app on their own from the Company Portal respectively. For **"Device Restart Behavior"** you can choose between four available options:
+The next step is the **"Program"** tab. Here we will specify an **"Install Command"** and an **"Uninstall Command"** as well as any installation or restart behaviours we wish to trigger. For our app installation parameters we will use TestApp.exe /install /qn and for uninstallation we will use TestApp.exe /uninstall /qn. Unless the app requires otherwise you should generally leave this on **"System."** Optionally, we can also set the **"Installation time required (mins)"** and **"Allow available uninstall."** These options allow you specify how long the system will wait for an installation to finish and whether users are able to uninstall the app on their own from the Company Portal respectively. For **"Device Restart Behaviour"** you can choose between four available options:
 
-* Determine behavior based on return codes : restart based on the post-installation return code.
+* Determine behaviour based on return codes : restart based on the post-installation return code.
 * No specific action : do not restart or take any action post-installation.
 * App install may force a device restart : device may restart depending on app requirements.
 * Intune will force a restart : device always restarts post-installation.
 
-The choice here is yours, typically I would set this to either **"No specific action"** for a fully silent install or **"App install may force a device restart"** if device behavior does not matter.
+The choice here is yours, typically I would set this to either **"No specific action"** for a fully silent install or **"App install may force a device restart"** if device behaviour does not matter.
 
 {% hint style="danger" %}
 Intune app deployments require a "Silent Install" switch, like "/qn", "/q" or "/s". If your app does not support silent installation it cannot be deployed. If you are not sure what your software's silent install switch is you can run "\<installer\_name.exe> /?" in PowerShell. If this does not work then [ITNinja](https://www.itninja.com/software-library/software) can be a good resource to identify the correct switch.

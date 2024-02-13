@@ -8,7 +8,7 @@ description: Web application penetration testing tool.
 
 Burp Suite Community Edition can be downloaded [here](https://portswigger.net/burp/communitydownload).
 
-Burp is a framework written in Java for web app penetration testing. Also used commonly in testing mobile applications as the features for web app testing translate directly into testing APIs (Application Programming Interfaces). Burp can capture and manipulate all traffic between an attacker and a webserver. It can be used to intercept, view and modify web requests before they are sent to the server. There are various editions of Burp available, Community is the standard free version, Burp Suite Professional and Burp Suite Enterprise require expensive licenses but have powerful features.
+Burp is a framework written in Java for web app penetration testing. Also used commonly in testing mobile applications as the features for web app testing translate directly into testing APIs (Application Programming Interfaces). Burp can capture and manipulate all traffic between an attacker and a web server. It can be used to intercept, view and modify web requests before they are sent to the server. There are various editions of Burp available, Community is the standard free version, Burp Suite Professional and Burp Suite Enterprise require expensive licenses but have powerful features.
 
 Burp Suite Professional comes with:
 
@@ -19,7 +19,7 @@ Burp Suite Professional comes with:
 * Unrestricted access to add new extensions
 * Access to Burp Suite Collaborator
 
-Burp Suite Enterprise is used for continuous scanning, it can periodically scan web apps for vulnrabilities.
+Burp Suite Enterprise is used for continuous scanning, it can periodically scan web apps for vulnerabilities.
 
 ### Features of Burp Suite Community
 

@@ -6,7 +6,7 @@ description: Other modules in Burp Suite.
 
 ### Decoder
 
-Decoder provides data manipulation capabilities, it can deocde data intercepted during an attack as well as encode data we provide it for transmission. It can also create hashsums of data and offers a Smart Decode feature, which tries to decode data recursively until it is plaintext again. Encoder and decoder offer:
+Decoder provides data manipulation capabilities, it can decode data intercepted during an attack as well as encode data we provide it for transmission. It can also create hash sums of data and offers a Smart Decode feature, which tries to decode data recursively until it is plaintext again. Encoder and decoder offer:
 
 * Plaintext
 * URL Encoding

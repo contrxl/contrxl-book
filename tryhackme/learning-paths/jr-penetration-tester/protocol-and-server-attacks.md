@@ -13,7 +13,7 @@ Servers implementing protocols from [Protocols and Servers](protocols-and-server
 3. Password Attack (Authentication Attack)
 4. Vulnerabilities
 
-Knowing that the goal is to protect CIA (confidentiality, integrity and availability), the aim of an attack is to cause DAD (disclosure, alteration, destruction). The attacks mentioned directly affect system security. Network packet capture violates confidentiality, successful password attacks can lead to disclosure and man-in-the-middle atacks breach intergrity.
+Knowing that the goal is to protect CIA (confidentiality, integrity and availability), the aim of an attack is to cause DAD (disclosure, alteration, destruction). The attacks mentioned directly affect system security. Network packet capture violates confidentiality, successful password attacks can lead to disclosure and man-in-the-middle attacks breach integrity.
 
 ### Sniffing Attack
 
@@ -33,7 +33,7 @@ MITM can affect many cleartext protocols like FTP, SMTP and POP3. Mitigation aga
 
 ### Transport Layer Security (TLS)
 
-SSL (Secure Sockets Layer) began in 1194, SSL 3.0 was released in 1996. When more security was needed, TLS was introduced in 1999. So far, protocols covered are all on layer 7 (the application layer). Encryption can be added to protocols via teh presentation layer, resulting in data being presented in an encrypted format instead of its original form.
+SSL (Secure Sockets Layer) began in 1194, SSL 3.0 was released in 1996. When more security was needed, TLS was introduced in 1999. So far, protocols covered are all on layer 7 (the application layer). Encryption can be added to protocols via the presentation layer, resulting in data being presented in an encrypted format instead of its original form.
 
 TLS is more secure than SSL, but SSL/TLS is still a widely used term, even though most modern servers use solely TLS. TLS can be used to upgrade HTTP, FTP, SMTP, POP3 and IMAP. This changes these like below:
 
@@ -59,7 +59,7 @@ Attacks against login systems can be carried out using a tool like Hydra, mitiga
 
 * Password Policy: enforces a minimum complexity
 * Account Lockout: locks account after a set number of tries
-* Throttling Authentication Attempts: delays response to a login atempt
+* Throttling Authentication Attempts: delays response to a login attempt
 * CAPTCHA: Completely Automated Public Turing Test to differentiate computers and people.
 * Require the use of a public certificate to authenticate.
 * 2FA: ask users to provide a code via smartphone or email

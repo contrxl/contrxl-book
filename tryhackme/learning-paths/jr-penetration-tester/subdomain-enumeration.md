@@ -6,7 +6,7 @@ description: Third section in Jr Penetration Tester learning path.
 
 ### SSL/TLS Certificates
 
-When an SSL/TLS (Secure Socket Layer/Transport Layer Security) certificate is created for a domain by a CA (Certificate Authority). CA's partake in Certificate Transparency Logs (CT Logs). These are publically viewable logs of every certificate created for a domain name, this is designed to stop malicious and accidentally created certificates from being used.&#x20;
+When an SSL/TLS (Secure Socket Layer/Transport Layer Security) certificate is created for a domain by a CA (Certificate Authority). CA's partake in Certificate Transparency Logs (CT Logs). These are publicly viewable logs of every certificate created for a domain name, this is designed to stop malicious and accidentally created certificates from being used.&#x20;
 
 ### Search Engines
 
@@ -22,7 +22,7 @@ Tools like [dnsrecon](https://github.com/darkoperator/dnsrecon) can be used to f
 
 ### Virtual Hosts
 
-Subdomains are not always publically accessible, for example, development versions of a web app or admin portal. The DNS record for these could be kept on a private DNS server or recorded on the developer's machines. This can be automated using ffuf like:
+Subdomains are not always publicly accessible, for example, development versions of a web app or admin portal. The DNS record for these could be kept on a private DNS server or recorded on the developer's machines. This can be automated using ffuf like:
 
 ```
 ffuf -w /wordlist/names.txt -H "Host: FUZZ.example.com" -u http://[IP_ADDR]

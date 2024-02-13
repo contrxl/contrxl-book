@@ -6,7 +6,7 @@ description: Eighth section in Jr Penetration Tester learning path.
 
 ### XSS Payloads
 
-In XSS, the payload is the JavaScript whihc is executed on the targets computer, there are two parts to the payload: the intention and the modification. The intention is what you want the JavaScript to do, and the modification is the changes we need to make so it executes.
+In XSS, the payload is the JavaScript which is executed on the targets computer, there are two parts to the payload: the intention and the modification. The intention is what you want the JavaScript to do, and the modification is the changes we need to make so it executes.
 
 The simplest proof of concept (POC) payload will cause an alert box to pop up on the page with text, for example: `<script>alert('XSS');</script>`.
 
@@ -32,7 +32,7 @@ The XSS payload is stored on the web application and gets run when other users v
 
 ### DOM Based XSS
 
-DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. DOM based XSS is where the JavaScript execution happens directly in the browser without any new pages being loaded or data submitted to backend code. DOM based XSS is hard to look for and requires knowledge of JavaScript to read the source code. You would look for parts of the code that access variables an attacker can have control over like "window.location.x".
+DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. DOM based XSS is where the JavaScript execution happens directly in the browser without any new pages being loaded or data submitted to back-end code. DOM based XSS is hard to look for and requires knowledge of JavaScript to read the source code. You would look for parts of the code that access variables an attacker can have control over like "window.location.x".
 
 ### Blind XSS
 

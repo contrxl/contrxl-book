@@ -23,7 +23,7 @@ Burp will automatically try to detect the most probable payload positions. Where
 
 Allows you to create, assign and configure attack payloads. This tab is divided into four sections:
 
-1. Payload sets : choose the position to put a payload set and select the type of payload to use. If using an attack type that only allows a single payload set, the "Payload Set" dropdown will have only one option. Using attack types that require multiple payload sets will show one item in the dropdown for each position.&#x20;
+1. Payload sets : choose the position to put a payload set and select the type of payload to use. If using an attack type that only allows a single payload set, the "Payload Set" drop-down will have only one option. Using attack types that require multiple payload sets will show one item in the drop-down for each position.&#x20;
 2. Payload settings : provides options specific to the select payload type. For example, when using the "Simple List" payload type, we can manually add or remove payloads to or from the set using Add, Paste or Load buttons.
 3. Payload processing : define rules to apply to each payload in the set before it is sent to the target.
 4. Payload encoding : customise encoding options for payloads.

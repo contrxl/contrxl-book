@@ -6,11 +6,11 @@ description: An introduction to Microsoft Intune, Microsoft's endpoint managemen
 
 ### What is Intune?
 
-Microsoft Intune is a cloud-based endpoint management service for both corporate and BYO (Bring Your Own) devices.&#x20;
+Microsoft Intune is a cloud-based endpoint management service for both corporate and BYOD (Bring Your Own) devices.&#x20;
 
 Intune provides a platform to manage users and devices. Intune supports BYOD (Bring Your Own Device) and devices owned solely by an organisation. Intune is what we refer to as hardware agnostic, meaning you can enrol any brand or type of device into it. For example, you can enrol Dell, Samsung, Android, Google, or Apple hardware into Intune without any issues if configured properly.
 
-When enroling your hardware always check that the OS version it is running is currently supported by Intune, the Microsoft documentation keeps an up-to-date list of the OS versions [Intune supports](https://learn.microsoft.com/en-us/mem/intune/fundamentals/supported-devices-browsers).
+When enrolling your hardware always check that the OS version it is running is currently supported by Intune, the Microsoft documentation keeps an up-to-date list of the OS versions [Intune supports](https://learn.microsoft.com/en-us/mem/intune/fundamentals/supported-devices-browsers).
 
 Microsoft Intune comes with an in-built app management and deployment experience. This covers app deployments, updates and removal. This will be covered further in this section. Intune also provides the Company Portal which allows users to use self-service features, like download optional apps or reset their PIN/Passwords.
 
@@ -20,19 +20,19 @@ Intune is integrated with Microsoft's threat defence services, including Microso
 
 Intune can be used in conjunction with configuration manager to get the benefits of the web-based admin center and use Intune's cloud-based features.&#x20;
 
-Windows Autopilot allows easy provisioning of new devices and allows those devices to be shipped directly to users. Existing devices can be reimaged and updated to the latest Windows version. This will also be covered more in-depth in a later page.
+Windows Autopilot allows easy provisioning of new devices and allows those devices to be shipped directly to users. Existing devices can be re-imaged and updated to the latest Windows version. This will also be covered more in-depth in a later page.
 
-Endpoint analytics can be configured for clear visbility and reporting on the end user experience, including device performance statistics.&#x20;
+Endpoint analytics can be configured for clear visibility and reporting on the end user experience, including device performance statistics.&#x20;
 
 Microsoft 365 apps can be deployed directly via Intune to allow users to access the full suite of Office applications.
 
 Microsoft Defender for Endpoint helps prevent, detect, investigate and respond to threats. A service-to-service connection be established between Defender and Intune, allowing for policies to be set up that scan files, detect threats and report back threat levels.
 
-Windows Autopatch is an integreated cloud updating service that keeps Microsoft software current.
+Windows Autopatch is an integrated cloud updating service that keeps Microsoft software current.
 
 ### Protect Data
 
-Data can be protected on enroled, managed devices. Intune can help isolate organisation data from personal data. On devices enroled in Intune we can:
+Data can be protected on enrolled, managed devices. Intune can help isolate organisation data from personal data. On devices enrolled in Intune we can:
 
 * Create policies that configure security settings, set password requirements or deploy certificates.
 * Use mobile threat defence services to scan devices and detect threats.
@@ -54,6 +54,6 @@ Intune allows use of Windows Hello for Business instead of a password for device
 
 VPN connections can be set for remote users to allow secure access to the network. Common VPN connection partners can be used to create a VPN policy with your network settings. Within the policy you can use certificates to authenticate the connection, this lets users connect without usernames and passwords.
 
-WiFi policy can be created within intune which automatically connects devices to a specified SSID when within range. Certificates can be used here to authenticate the connection, eliminating the need for usernames and passwords.
+WiFi policy can be created within Intune which automatically connects devices to a specified SSID when within range. Certificates can be used here to authenticate the connection, eliminating the need for usernames and passwords.
 
 Single Sign-On (SSO) can be enabled to allow users to automatically sign into apps and services using their existing Microsoft Entra organisational account.

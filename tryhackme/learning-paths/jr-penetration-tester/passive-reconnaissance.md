@@ -34,4 +34,4 @@ NSLookup (Name Server Lookup) can be used to find the IP address of a domain, th
 
 Example usage would be: `nslookup -type=A example.com 1.1.1.1`. This will return all IPv4 addresses in use by example.com.
 
-DIG (Domain Information Grouper) can be used for more advanced DNS queries. The syntax for this is typically: `dig DOMAIN_NAME TYPE`, but we can also use `dig @SERVER DOMAIN_NAME TYPE` if we wish to specifiy the server to query.
+DIG (Domain Information Grouper) can be used for more advanced DNS queries. The syntax for this is typically: `dig DOMAIN_NAME TYPE`, but we can also use `dig @SERVER DOMAIN_NAME TYPE` if we wish to specify the server to query.

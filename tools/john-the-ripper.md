@@ -6,7 +6,7 @@ description: Hash cracking tool.
 
 ### Introduction
 
-John is one of teh most well known hash cracking tools, it has a fast cracking speed and a wide range of compatible hash types.&#x20;
+John is one of the most well known hash cracking tools, it has a fast cracking speed and a wide range of compatible hash types.&#x20;
 
 Hashes are a way to take data of any length and output it as data of a fixed length. There are many  popular hashing algorithms like MD4, MD5, SHA1 and NTLM. If we took the string "polo" and ran it through a MD5 hash algorithm, we would get the output b53759f3ce692de7aff1b5779d3964da. This is a standard 32 character MD5 hash. If we took the string "polomints" and ran it through a MD5 hash algorithm we would get 584b6e4f4586e136bc280f27f9c64f3b. Also, a 32 character MD5 hash, even though "polomints" is a longer string.
 

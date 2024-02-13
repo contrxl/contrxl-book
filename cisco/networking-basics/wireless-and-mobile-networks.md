@@ -9,7 +9,7 @@ description: Module 3.
 Smartphones connect to wireless networks in many ways:
 
 * Global Positioning System (GPS) : smartphone can receive signals from satellites around the world.
-* WiFi : receivers in the phone enable connection to LANs and the itnernet. The phone needs to be in range of the WiFi AP to connect.
+* WiFi : receivers in the phone enable connection to LANs and the internet. The phone needs to be in range of the WiFi AP to connect.
 * Bluetooth : low-power, short range wireless technology intended for speakers, headphones or watches.
 * Near Field Communication (NFC) : allows data exchange between devices in close proximity. NFC uses electromagnetic fields to transmit data.
 

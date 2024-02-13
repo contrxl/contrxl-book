@@ -12,7 +12,7 @@ NIST defines a vulnerability as "weakness in an information system, system secur
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Operating System            | Found within an OS and often result in privilege escalation.                                                                                      |
 | (Mis)Configuration-based    | Found in incorrectly configured apps or services, for example, a website exposing customer details.                                               |
-| Weak or Default Credentials | Apps and services with authentication often come iwth defauly credentials, for example, an admin account having a default password of "admin".    |
+| Weak or Default Credentials | Apps and services with authentication often come with default credentials, for example, an admin account having a default password of "admin".    |
 | Application Logic           | Result of poorly designed applications, for example, poorly implemented authentication resulting in an attacker being able to impersonate a user. |
 | Human-Factor                | Vulnerabilities which leverage human behaviour, for example, phishing emails.                                                                     |
 
@@ -51,9 +51,9 @@ Unlike CVSS, VPR accounts for the relevancy of a vulnerability, for example, no 
 
 The advantages and disadvantages of VPR are as follows:
 
-| Advantages of VPR                                           | Disadvantages of VPR                                                                                                         |
-| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| VPR is modern & real-world                                  | VPR is not open-source                                                                                                       |
-| VPR considers over 150 factors in risk calculation          | VPR can only be adopted as part of a commercial platform                                                                     |
-| VPR is risk-driven and helps prioritise vulnerabilities     | VPR does not consider the CIA triad as extensively as CVSS does, meaning risk to CIA does not play a large factor in scoring |
-| Scorings are dynamic and can change as a vulnerability ages | Blank on purpose                                                                                                             |
+| Advantages of VPR                                         | Disadvantages of VPR                                                                                                         |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| VPR is modern & real-world                                | VPR is not open-source                                                                                                       |
+| VPR considers over 150 factors in risk calculation        | VPR can only be adopted as part of a commercial platform                                                                     |
+| VPR is risk-driven and helps prioritise vulnerabilities   | VPR does not consider the CIA triad as extensively as CVSS does, meaning risk to CIA does not play a large factor in scoring |
+| Scoring is dynamic and can change as a vulnerability ages | Blank on purpose                                                                                                             |
