@@ -29,6 +29,7 @@
     * [Repeater](tools/burp-suite/repeater.md)
     * [Intruder](tools/burp-suite/intruder.md)
     * [Other Modules](tools/burp-suite/other-modules.md)
+  * [Hydra](tools/hydra.md)
   * [John the Ripper](tools/john-the-ripper.md)
   * [Metasploit](tools/metasploit/README.md)
     * [Exploitation](tools/metasploit/exploitation.md)
@@ -79,3 +80,5 @@
         * [Metasploit: Introduction](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/metasploit-introduction.md)
         * [Wireshark: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/wireshark-the-basics.md)
         * [Burp Suite: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/burp-suite-the-basics.md)
+        * [Hydra](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/hydra.md)
+        * [Python Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/python-basics.md)
