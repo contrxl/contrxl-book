@@ -8,7 +8,13 @@ description: Front page posting most recent updates & changes.
 
 This GitBook will serve as a complete repository of all my notes, research and tools that I use.&#x20;
 
-Notes, information and guides on general systems administration will also be added here, although maybe less frequently. Deployment guides for applications on [Intune](intune/) will be filed under [App Deployments](intune/app-deployment.md).
+Notes, information and guides on general systems administration will also be added here, although maybe less frequently.
+
+{% hint style="danger" %}
+All information presented here is presented for educational purposes. Any presentation or mention of "Hacking" in here is done so in reference to "Ethical Hacking". Information presented here is potentially dangerous, please do not attempt to use or test anything which you do not understand.&#x20;
+
+Refer to the laws in your region/country before accessing or using any of the information which may be presented here.
+{% endhint %}
 
 #### More stuff!
 
