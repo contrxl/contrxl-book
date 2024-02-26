@@ -34,8 +34,8 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
-* [ ] Add section to Intune on ADMX configurations.&#x20;
-* [ ] Add section to Intune on file deployment via Intune.
+* [x] Add section to Intune on ADMX configurations.&#x20;
+* [x] Add section to Intune on file deployment via Intune.
 {% endtab %}
 
 {% tab title="Jan 2024" %}
@@ -54,6 +54,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[26 Feb] Updated [News & Information](news-and-information.md), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Added [ADMX Configuration](intune/admx-configuration.md), Added [File Deployment](intune/file-deployment.md).
 * \[21 Feb] Added [Microsoft](microsoft/), Added [Configure SIEM Security Operations using Microsoft Sentinel](microsoft/configure-siem-security-operations-using-microsoft-sentinel/), Added [Create and Manage Microsoft Sentinel Workspaces](microsoft/configure-siem-security-operations-using-microsoft-sentinel/create-and-manage-microsoft-sentinel-workspaces/).
 * \[19 Feb] Updated [The Access Layer](cisco/networking-basics/the-access-layer.md), Added [The Internet Protocol](cisco/networking-basics/the-internet-protocol.md), Added [IPv4 and Segmentation](cisco/networking-basics/ipv4-and-network-segmentation.md).
 * \[13 Feb] Updated [Governance and Regulation](tryhackme/learning-paths/comptia-pentest+/planning-and-scoping/governance-and-regulation.md), Added [Tools and Code Analysis](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/), Added [Metasploit: Introduction](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/metasploit-introduction.md), Added [Wireshark: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/wireshark-the-basics.md), Added [Burp Suite: The Basics](tryhackme/learning-paths/comptia-pentest+/tools-and-code-analysis/burp-suite-the-basics.md),  Added [Wireshark](tools/wireshark.md).
