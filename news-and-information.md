@@ -10,9 +10,12 @@ Keeping up on cyber & information security can be done through various publicly 
 
 * [ArsTechnica](https://arstechnica.com/gadgets/) : General tech news covering a wide range of fields and technologies.
 * [BleepingComputer](https://www.bleepingcomputer.com/) : Cybersecurity and technology focused articles.
+* [Disinfo](https://www.disinfo.eu) : Information on disinformation across social media and online platforms.
+* [Huntress](https://www.huntress.com/blog) : Threat intelligence blog updated regularly.
 * [Malwarebytes](https://www.malwarebytes.com/blog) : Frequently updated blog of security issues across a wide range of topics.
 * [Mandiant](https://www.mandiant.com/resources) : Threat intelligence monitoring and publisher of free-to-read white papers.
 * [PrivacyGuides](https://discuss.privacyguides.net/) : New location for r/PrivacyGuides which closed in protest of Reddit changes.
+* [Recorded Future](https://www.recordedfuture.com/) : Threat intelligence monitoring and reporting.
 * [Red Canary](https://redcanary.com/blog/) : More threat intelligence & incident response.
 * [SecureList](https://securelist.com/) : Kaspersky's threat intelligence reports, malware research and APT analysis.
 * [SentinelLabs](https://www.sentinelone.com/labs/) : Info on APTs and other threats.
