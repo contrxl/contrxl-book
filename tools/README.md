@@ -2,7 +2,7 @@
 description: A list of useful tools & utilities.
 ---
 
-# ⚒ Tools
+# ⚒️ Tools
 
 A growing list of tools & utilities to help with a wide range of tasks. Basic or web based tools will be listed on this main page, whilst more in-depth explanations of more unique tools will get their own sub-page.
 
@@ -22,6 +22,7 @@ A growing list of tools & utilities to help with a wide range of tasks. Basic or
 * [Oracle VM Virtual BOX ](https://www.virtualbox.org/): my preferred VM software, has most features that [VMWare Workstation](https://www.vmware.com/uk/products/workstation-player.html) requires payment for. A little harder to setup.
 * [Process Hacker](https://processhacker.sourceforge.io/) : resource monitor, debugger, malware detector.
 * [SecLists](https://github.com/danielmiessler/SecLists) : huge collection of helpful wordlists for pentesting and vulnerability testing.
+* [SET](https://trustedsec.com/resources/tools/the-social-engineer-toolkit-set) : Social Engineering Toolkit with a multitude of tools.
 * [SRIHash](https://owasp.org/www-project-secure-headers/) : anti-tamper tool for generating URL hashes.
 * [WinDirStat](https://windirstat.net/) : disk usage statistic viewer for Windows, very handy.
 

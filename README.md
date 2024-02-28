@@ -54,6 +54,7 @@ My own to-do list for the year, will update this based on how well I progress!
 
 {% tabs %}
 {% tab title="Feb 2024" %}
+* \[28 Feb] Added [Phishing](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/phishing.md), Added [GoPhish](tools/gophish.md), Added [Attacks and Exploits](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/), Updated [Tools](tools/)Tools.
 * \[26 Feb] Updated [News & Information](news-and-information.md), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Added [ADMX Configuration](intune/admx-configuration.md), Added [File Deployment](intune/file-deployment.md).
 * \[21 Feb] Added [Microsoft](microsoft/), Added [Configure SIEM Security Operations using Microsoft Sentinel](microsoft/configure-siem-security-operations-using-microsoft-sentinel/), Added [Create and Manage Microsoft Sentinel Workspaces](microsoft/configure-siem-security-operations-using-microsoft-sentinel/create-and-manage-microsoft-sentinel-workspaces/).
 * \[19 Feb] Updated [The Access Layer](cisco/networking-basics/the-access-layer.md), Added [The Internet Protocol](cisco/networking-basics/the-internet-protocol.md), Added [IPv4 and Segmentation](cisco/networking-basics/ipv4-and-network-segmentation.md).
