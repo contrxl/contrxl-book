@@ -53,6 +53,10 @@ My own to-do list for the year, will update this based on how well I progress!
 #### Latest Updates
 
 {% tabs %}
+{% tab title="Mar 2024" %}
+* \[04 Mar] Updated [Windows Local Persistence](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/windows-local-persistence.md), Added [Breaching Active Directory](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/breaching-active-directory.md).
+{% endtab %}
+
 {% tab title="Feb 2024" %}
 * \[28 Feb] Added [Phishing](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/phishing.md), Added [GoPhish](tools/gophish.md), Added [Attacks and Exploits](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/), Updated [Tools](tools/)Tools.
 * \[26 Feb] Updated [News & Information](news-and-information.md), Updated [Vulnerability OSINT](osint/vulnerability-osint.md), Added [ADMX Configuration](intune/admx-configuration.md), Added [File Deployment](intune/file-deployment.md).
