@@ -18,7 +18,7 @@ Refer to the laws in your region/country before accessing or using any of the in
 
 #### More stuff!
 
-Write-ups and walkthroughs of THM Rooms or other Capture the Flags I've completed are now being uploaded to my Medium blog [here](https://medium.com/@contrxl)!
+I'm moving the blog from Medium to Substack! The new link is: [https://contrxl.substack.com/](https://contrxl.substack.com/)
 
 #### Personal Goals!
 
@@ -53,6 +53,11 @@ My own to-do list for the year, will update this based on how well I progress!
 #### Latest Updates
 
 {% tabs %}
+{% tab title="May 2024" %}
+* \[22 May] Moving blog from Medium > Substack, so been a bit quieter!
+* \[22 May] Added [Lateral Movement and Pivoting](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/lateral-movement-and-pivoting.md).
+{% endtab %}
+
 {% tab title="Mar 2024" %}
 * \[05 Mar] Updated [Email & Username OSINT](osint/email-and-username-osint.md), Updated [Breaching Active Directory](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/breaching-active-directory.md).
 * \[04 Mar] Updated [Windows Local Persistence](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/windows-local-persistence.md), Added [Breaching Active Directory](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/breaching-active-directory.md).

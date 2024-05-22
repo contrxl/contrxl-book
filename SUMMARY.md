@@ -101,3 +101,4 @@
         * [Phishing](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/phishing.md)
         * [Windows Local Persistence](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/windows-local-persistence.md)
         * [Breaching Active Directory](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/breaching-active-directory.md)
+        * [Lateral Movement & Pivoting](tryhackme/learning-paths/comptia-pentest+/attacks-and-exploits/lateral-movement-and-pivoting.md)
